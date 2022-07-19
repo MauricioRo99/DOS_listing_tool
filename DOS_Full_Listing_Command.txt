@@ -1,0 +1,1 @@
+forfiles /s  /c "cmd /c if @isdir==FALSE echo @path @fsize"
